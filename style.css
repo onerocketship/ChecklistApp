@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.week {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.day {
+    width: 250px;
+    background-color: #e3e3e3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Botón de generar reporte */
+.btn-report {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-report:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para el reporte */
+.report-container {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-container h3 {
+    margin-bottom: 10px;
+}
+
+.report-container p {
+    font-size: 16px;
+}
